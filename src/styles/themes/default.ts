@@ -8,14 +8,16 @@ export const defaultTheme = {
 
   YELLOW_5: "#FBA94C",
 
-  GRAY_1: "#121214",
-  GRAY_2: "#202024",
-  GRAY_3: "#323238",
-  GRAY_4: "#7C7C8A",
-  GRAY_5: "#8D8D99",
-  GRAY_6: "#C4C4CC",
-  GRAY_7: "#E1E1E6",
-  WHITE: "#FFFFFF",
+  GRAY_1: "#E1E1E6",
+  GRAY_3: "#C4C4CC",
+  GRAY_4: "#8D8D99",
+  GRAY_5: "#7C7C8A",
+  GRAY_6: "#323238",
+  GRAY_7: "#29292E",
+  GRAY_8: "#202024",
+  GRAY_9: "#121214",
+
+  WHITE: "#FFF",
 
   FONT_XS: "0.75rem", // 12px
   FONT_SM: "0.875rem", // 14px
