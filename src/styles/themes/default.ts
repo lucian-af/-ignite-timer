@@ -19,10 +19,28 @@ export const defaultTheme = {
 
   WHITE: "#FFF",
 
-  FONT_XS: "0.75rem", // 12px
+  /** 
+   0.75rem = 12px
+  */
+  FONT_XS: "0.75rem",
+  /** 
+   0.875rem = 14px
+  */
   FONT_SM: "0.875rem", // 14px
+  /** 
+   1rem = 16px
+  */
   FONT_MD: "1rem", // 16px
+  /** 
+   1.125rem = 18px
+  */
   FONT_LG: "1.125rem", // 18px
+  /** 
+   1.5rem = 24px
+  */
   FONT_XL: "1.5rem", // 24px
+  /** 
+   10rem = 160px
+  */
   FONT_XXL: "10rem", // 160px
 };
