@@ -8,8 +8,8 @@ export const HistoryContainer = styled.main`
   flex-direction: column;
 
   h1 {
-    font-size: ${(props) => props.theme.FONT_XL};
-    color: ${(props) => props.theme.GRAY_1};
+    font-size: ${(props) => props.theme["font-xl"]};
+    color: ${(props) => props.theme["gray-1"]};
   }
 `;
 
@@ -24,11 +24,11 @@ export const HistoryList = styled.div`
     min-width: 600px;
 
     th {
-      background-color: ${(props) => props.theme.GRAY_6};
+      background-color: ${(props) => props.theme["gray-6"]};
       padding: 1rem;
       text-align: left;
-      color: ${(props) => props.theme.GRAY_1};
-      font-size: ${(props) => props.theme.FONT_SM};
+      color: ${(props) => props.theme["gray-1"]};
+      font-size: ${(props) => props.theme["font-sm"]};
       line-height: 1.6;
 
       &:first-child {
@@ -43,10 +43,10 @@ export const HistoryList = styled.div`
     }
 
     td {
-      background-color: ${(props) => props.theme.GRAY_7};
-      border-top: 4px solid ${(props) => props.theme.GRAY_8};
+      background-color: ${(props) => props.theme["gray-7"]};
+      border-top: 4px solid ${(props) => props.theme["gray-8"]};
       padding: 1rem;
-      font-size: ${(props) => props.theme.FONT_SM};
+      font-size: ${(props) => props.theme["font-sm"]};
       line-height: 1.6;
 
       &:first-child {
@@ -62,9 +62,9 @@ export const HistoryList = styled.div`
 `;
 
 const STATUS_COLORS = {
-  yellow: "YELLOW_5",
-  red: "RED_5",
-  green: "GREEN_5",
+  yellow: "yellow-5",
+  red: "red-5",
+  green: "green-5",
 } as const;
 
 type StatusProps = {

@@ -18,17 +18,17 @@ export const HeaderContainer = styled.header`
       justify-content: center;
       align-items: center;
 
-      color: ${(props) => props.theme.GRAY_1};
+      color: ${(props) => props.theme["gray-1"]};
 
       border-top: 3px solid transparent;
       border-bottom: 3px solid transparent;
 
       &:hover {
-        border-bottom: 3px solid ${(props) => props.theme.GREEN_5};
+        border-bottom: 3px solid ${(props) => props.theme["green-5"]};
       }
 
       &.active {
-        color: ${(props) => props.theme.GREEN_5};
+        color: ${(props) => props.theme["green-5"]};
       }
     }
   }
