@@ -9,7 +9,7 @@ export const HistoryContainer = styled.main`
 
   h1 {
     font-size: ${(props) => props.theme["font-xl"]};
-    color: ${(props) => props.theme["gray-1"]};
+    color: ${(props) => props.theme["gray-100"]};
   }
 `;
 
@@ -24,10 +24,10 @@ export const HistoryList = styled.div`
     min-width: 600px;
 
     th {
-      background-color: ${(props) => props.theme["gray-6"]};
+      background-color: ${(props) => props.theme["gray-600"]};
       padding: 1rem;
       text-align: left;
-      color: ${(props) => props.theme["gray-1"]};
+      color: ${(props) => props.theme["gray-100"]};
       font-size: ${(props) => props.theme["font-sm"]};
       line-height: 1.6;
 
@@ -43,8 +43,8 @@ export const HistoryList = styled.div`
     }
 
     td {
-      background-color: ${(props) => props.theme["gray-7"]};
-      border-top: 4px solid ${(props) => props.theme["gray-8"]};
+      background-color: ${(props) => props.theme["gray-700"]};
+      border-top: 4px solid ${(props) => props.theme["gray-800"]};
       padding: 1rem;
       font-size: ${(props) => props.theme["font-sm"]};
       line-height: 1.6;
